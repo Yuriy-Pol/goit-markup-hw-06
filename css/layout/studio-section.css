@@ -4,6 +4,7 @@
 .studio {
   padding: 96px 0;
   max-width: 320px;
+  margin: 0 auto;
 }
 
 .studio-list {
@@ -38,11 +39,14 @@
   .studio-list {
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 24px;
-    column-gap: 72px;
+    row-gap: 72px;
+    column-gap: 24px;
   }
   .studio-list-item {
     width: calc((100% - 24px) / 2);
+  }
+  .studio-titles {
+    text-align: left;
   }
 }
 @media screen and (min-width: 1158px) {

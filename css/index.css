@@ -9,3 +9,7 @@
 @import './layout/header.css';
 @import './layout/hero-section.css';
 @import './layout/studio-section.css';
+@import './layout/our-team-section.css';
+@import './layout/our-portfolio-section.css';
+@import './layout/footer.css';
+@import './layout/backdrop.css';

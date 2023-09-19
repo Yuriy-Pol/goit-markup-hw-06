@@ -99,7 +99,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../../images/comp/background-hero.jpg);
+      url(../../images/desktop/background-hero.jpg);
   }
   @media screen and (min-resolution: 192dpi) {
     .hero-section {
@@ -107,7 +107,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../../images/comp/background-hero@2x.jpg);
+        url(../../images/desktop/background-hero@2x.jpg);
     }
   }
   .hero-section-title {
