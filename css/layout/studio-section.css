@@ -3,14 +3,13 @@
 }
 .studio {
   padding: 96px 0;
-  max-width: 320px;
   margin: 0 auto;
 }
 
 .studio-list {
   display: flex;
   flex-direction: column;
-  column-gap: 72px;
+  gap: 72px;
 }
 .studio-titles {
   color: #2e2f42;
@@ -33,9 +32,6 @@
   letter-spacing: 0.32px;
 }
 @media screen and (min-width: 768px) {
-  .studio {
-    max-width: 768px;
-  }
   .studio-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -51,7 +47,6 @@
 }
 @media screen and (min-width: 1158px) {
   .studio {
-    max-width: 1158px;
     padding: 120px 0;
   }
   .studio-icon {

@@ -2,7 +2,7 @@
   background: #2e2f42;
   text-align: center;
   padding: 72px 0;
-  max-width: 320px;
+
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -44,7 +44,6 @@
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  margin-top: 48px;
   display: block;
   padding: 16px 32px;
   align-items: flex-start;
@@ -66,7 +65,7 @@
 @media screen and (min-width: 768px) {
   .hero-section {
     padding: 112px 0;
-    max-width: 768px;
+
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -94,7 +93,7 @@
 @media screen and (min-width: 1158px) {
   .hero-section {
     padding: 188px 0;
-    max-width: 1158px;
+
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
