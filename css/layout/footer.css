@@ -88,7 +88,7 @@
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.48px;
-  width: 264px;
+  width: 288px;
   height: 40px;
   border-radius: 4px;
   border: 1px solid #fff;
@@ -151,6 +151,9 @@
     text-align: left;
     margin-top: 72px;
   }
+  .footer-input {
+    width: 264px;
+  }
 }
 @media screen and (min-width: 1158px) {
   .footer {
@@ -159,6 +162,7 @@
   .footer-container {
     flex-direction: row;
     flex-wrap: nowrap;
+    max-width: 1158px;
   }
   .footer-form-text {
     text-align: left;
